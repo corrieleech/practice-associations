@@ -1,7 +1,39 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
-#   Character.create(name: "Luke", movie: movies.first)
+# 100.times do 
+#   user = User.create(name: FFaker::Name.name, title: FFaker::Company.position, email: FFaker::Internet.email)
+# end
+
+# new = Follow.create(follower_id: 1, leader_id: 3)
+# new = Follow.create(follower_id: 1, leader_id: 5)
+# new = Follow.create(follower_id: 1, leader_id: 7)
+# new = Follow.create(follower_id: 1, leader_id: 9)
+# new = Follow.create(follower_id: 2, leader_id: 4)
+# new = Follow.create(follower_id: 2, leader_id: 6)
+# new = Follow.create(follower_id: 2, leader_id: 8)
+# new = Follow.create(follower_id: 2, leader_id: 10)
+# new = Follow.create(follower_id: 3, leader_id: 1)
+# new = Follow.create(follower_id: 3, leader_id: 2)
+# new = Follow.create(follower_id: 3, leader_id: 3)
+# new = Follow.create(follower_id: 3, leader_id: 5)
+# new = Follow.create(follower_id: 3, leader_id: 7)
+# new = Follow.create(follower_id: 3, leader_id: 9)
+
+new = Follow.create(follower_id: 1, leader_id: 101)
+new = Follow.create(follower_id: 2, leader_id: 101)
+new = Follow.create(follower_id: 3, leader_id: 101)
+new = Follow.create(follower_id: 4, leader_id: 101)
+new = Follow.create(follower_id: 5, leader_id: 101)
+new = Follow.create(follower_id: 6, leader_id: 101)
+new = Follow.create(follower_id: 7, leader_id: 101)
+new = Follow.create(follower_id: 8, leader_id: 101)
+new = Follow.create(follower_id: 9, leader_id: 101)
+new = Follow.create(follower_id: 10, leader_id: 101)
+new = Follow.create(follower_id: 11, leader_id: 101)
+new = Follow.create(follower_id: 12, leader_id: 101)
+new = Follow.create(follower_id: 13, leader_id: 101)
+new = Follow.create(follower_id: 14, leader_id: 101)
+new = Follow.create(follower_id: 15, leader_id: 101)
+new = Follow.create(follower_id: 16, leader_id: 101)
+new = Follow.create(follower_id: 17, leader_id: 101)
+new = Follow.create(follower_id: 18, leader_id: 101)
+new = Follow.create(follower_id: 19, leader_id: 101)
+new = Follow.create(follower_id: 20, leader_id: 101)
